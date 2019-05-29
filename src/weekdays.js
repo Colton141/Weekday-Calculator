@@ -19,12 +19,8 @@ export function Weekdays(date) {
       m = 12;
     }else{m-=2}
   }
-  console.log(d);
-  console.log(c);
-  console.log(m);
-
+  console.log(f);
   f = k + Math.floor(((13*m-1)/5)) + d + Math.floor((d/4)) + Math.floor((c/4)) - 2*c;
 
-  console.log(f);
   return dateArray;
 }
